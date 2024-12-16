@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #search-section {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #search-section input,
+  #search-section select {
+    padding: 10px;
+    margin: 5px;
+    width: calc(100% - 30px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #search-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #results-section {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  footer {
+    padding: 10px;
+    background: #333;
+    color: white;
+  }
+  
