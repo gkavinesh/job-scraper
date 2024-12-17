@@ -59,4 +59,24 @@ body {
     background: #333;
     color: white;
   }
+
+  .job-card {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    text-align: left;
+  }
+  
+  .job-card a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .job-card a:hover {
+    text-decoration: underline;
+  }
+  
   
